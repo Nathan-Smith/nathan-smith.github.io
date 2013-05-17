@@ -1,4 +1,4 @@
-nathan-smith.github.io
+[Nathans Dev Blog](http://nathan-smith.github.io)
 ======================
 
-GitHub hosted blog
+Hosted on GitHub
