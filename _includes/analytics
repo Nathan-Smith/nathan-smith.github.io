@@ -1,12 +1,12 @@
-{% if site.safe and site.JB.analytics.provider and page.JB.analytics != false %}
+{% if site.safe and site.analytics.provider and page.analytics != false %}
 
-{% case site.JB.analytics.provider %}
+{% case site.analytics.provider %}
 {% when "google" %}
-  {% include JB/analytics-providers/google %}
+  {% include analytics-providers/google %}
 {% when "getclicky" %}
-  {% include JB/analytics-providers/getclicky %}
+  {% include analytics-providers/getclicky %}
 {% when "mixpanel" %}
-  {% include JB/analytics-providers/mixpanel %}
+  {% include analytics-providers/mixpanel %}
 {% when "custom" %}
   {% include custom/analytics %}
 {% endcase %}
